@@ -1,6 +1,6 @@
 {
   "name": "app-ready",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Signal that your app is ready for use.",
   "homepage": "https://github.com/sholladay/app-ready",
   "main": "index.js",
