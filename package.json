@@ -1,12 +1,12 @@
 {
     "name": "app-ready",
     "version": "0.1.0",
-    "description": "Signal that your app is ready for use.",
+    "description": "Support graceful start in your app",
     "homepage": "https://github.com/sholladay/app-ready",
     "main": "index.js",
     "author": {
         "name": "Seth Holladay",
-        "url": "http://seth-holladay.com",
+        "url": "https://seth-holladay.com",
         "email": "me@seth-holladay.com"
     },
     "scripts": {
@@ -28,20 +28,29 @@
         "index.js"
     ],
     "devDependencies": {
-        "ava": "^0.18.1",
-        "eslint-config-tidy": "^0.4.0",
-        "xo": "^0.17.0"
+        "ava": "^0.22.0",
+        "eslint-config-tidy": "^0.5.0",
+        "xo": "^0.18.0"
     },
     "keywords": [
+        "pm2",
         "server",
         "cluster",
         "child",
         "process",
         "graceful",
         "start",
+        "startup",
+        "restart",
+        "reload",
+        "wait",
         "emit",
+        "init",
         "ready",
-        "signal"
+        "signal",
+        "deploy",
+        "deployment",
+        "downtime"
     ],
     "xo": {
         "extend": "tidy"
