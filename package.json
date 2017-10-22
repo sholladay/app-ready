@@ -1,49 +1,49 @@
 {
-  "name": "app-ready",
-  "version": "0.1.0",
-  "description": "Signal that your app is ready for use.",
-  "homepage": "https://github.com/sholladay/app-ready",
-  "main": "index.js",
-  "author": {
-    "name": "Seth Holladay",
-    "url": "http://seth-holladay.com",
-    "email": "me@seth-holladay.com"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:sholladay/app-ready.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sholladay/app-ready/issues",
-    "email": "me@seth-holladay.com"
-  },
-  "engines": {
-    "node": ">=6"
-  },
-  "license": "MPL-2.0",
-  "files": [
-    "index.js"
-  ],
-  "devDependencies": {
-    "ava": "^0.18.1",
-    "eslint-config-tidy": "^0.4.0",
-    "xo": "^0.17.0"
-  },
-  "keywords": [
-    "server",
-    "cluster",
-    "child",
-    "process",
-    "graceful",
-    "start",
-    "emit",
-    "ready",
-    "signal"
-  ],
-  "xo": {
-    "extend": "tidy"
-  }
+    "name": "app-ready",
+    "version": "0.1.0",
+    "description": "Signal that your app is ready for use.",
+    "homepage": "https://github.com/sholladay/app-ready",
+    "main": "index.js",
+    "author": {
+        "name": "Seth Holladay",
+        "url": "http://seth-holladay.com",
+        "email": "me@seth-holladay.com"
+    },
+    "scripts": {
+        "test": "xo && ava"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:sholladay/app-ready.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sholladay/app-ready/issues",
+        "email": "me@seth-holladay.com"
+    },
+    "engines": {
+        "node": ">=6"
+    },
+    "license": "MPL-2.0",
+    "files": [
+        "index.js"
+    ],
+    "devDependencies": {
+        "ava": "^0.18.1",
+        "eslint-config-tidy": "^0.4.0",
+        "xo": "^0.17.0"
+    },
+    "keywords": [
+        "server",
+        "cluster",
+        "child",
+        "process",
+        "graceful",
+        "start",
+        "emit",
+        "ready",
+        "signal"
+    ],
+    "xo": {
+        "extend": "tidy"
+    }
 }
